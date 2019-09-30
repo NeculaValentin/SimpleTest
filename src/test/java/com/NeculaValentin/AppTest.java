@@ -49,12 +49,6 @@ public class AppTest {
         assertEquals(false, App.comp(a, b));
     }
 
-    @Test
-    public void test7() {
-        int[] a = new int[]{121, 1440, 191, 161, 19, 144, 195, 11};
-        int[] b = {11 * 11, 121 * 121, 1440 * 1440, 191 * 191, 161 * 161, 19 * 19, 144 * 144, 195 * 195};
-        assertEquals(true, App.comp(a, b));
-    }
 
     @Test
     public void test8() {
